@@ -5,7 +5,8 @@ The images will be published in BGR8 format.
 
 ## Setup
 
-1. Clone this repo
+1. Clone this repo `git clone https://github.com/amc-nu/RosImageFolderPublisher`
+1. Change to repo dir `cd RosImageFolderPublisher`
 1. Execute `catkin_make`
 1. Source the workspace `source devel/setup.py`
 
@@ -25,6 +26,10 @@ Once in a sourced terminal, execute:
 |`sort_files`  | Boolean| Defines if the files will be sorted before publishing   | `True`        |
 |`frame_id`    | String | Sets the frame_id contained in the Image message header | `camera`      |
 |`image_folder`| String | Path to the folder containing the images to be published|               | 
+
+### Example
+
+`rosrun image_folder_publisher image_folder_publisher.py _image_folder:=/PATH/Images _topic_name=/image_topic`
 
 ## Notes
 
