@@ -8,7 +8,7 @@ The images will be published in BGR8 format.
 1. Clone this repo `git clone https://github.com/amc-nu/RosImageFolderPublisher`
 1. Change to repo dir `cd RosImageFolderPublisher`
 1. Execute `catkin_make`
-1. Source the workspace `source devel/setup.py`
+1. Source the workspace `source devel/setup.bash`
 
 If you want to integrate this into another catkin workspace, just copy the `image_folder_publisher` into the `src` target workspace.
 
