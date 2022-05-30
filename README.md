@@ -29,7 +29,7 @@ Once in a sourced terminal, execute:
 
 ### Example
 
-`rosrun image_folder_publisher image_folder_publisher.py _image_folder:=/PATH/Images _topic_name=/image_topic`
+`rosrun image_folder_publisher image_folder_publisher.py _image_folder:=/PATH/Images _topic_name:=/image_topic`
 
 ## Notes
 
