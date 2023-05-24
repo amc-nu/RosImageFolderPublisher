@@ -14,10 +14,10 @@ If you want to integrate this into another catkin workspace, just copy the `imag
 
 ## How to Launch
 
-Once in a sourced terminal, execute:
-`rosrun image_folder_publisher image_folder_publisher.py`
-or
-`roslaunch image_folder_publisher publisher.launch`
+Once in a sourced terminal, execute:   
+`rosrun image_folder_publisher image_folder_publisher.py`   
+or   
+`roslaunch image_folder_publisher publisher.launch`   
 
 ## Params
 
