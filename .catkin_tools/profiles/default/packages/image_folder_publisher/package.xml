@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>image_folder_publisher</name>
+    <version>1.0.0</version>
+    <description>An image publisher for images contained in a folder.</description>
+
+    <license>BSD</license>
+
+    <author  email="abrahammonrroy@yahoo.com">Abraham Monrroy</author >
+    <maintainer email="abrahammonrroy@yahoo.com">Abraham Monrroy</maintainer>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <exec_depend>cv_bridge</exec_depend>
+    <exec_depend>rosapi</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>sensor_msgs</exec_depend>
+
+</package>

@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="image_folder_publisher" type="image_folder_publisher.py" name="image_folder_publisher" output="screen">
+        <param name="topic_name" value="image_raw" />
+        <param name="publish_rate" value="30"/>
+        <param name="sort_files" value="True" />
+        <param name="frame_id" value="camera" />
+        <param name="sleep" value="0" />
+        <param name="loop" value="-1" />
+        <param name="image_folder" value="/home/kong/dataset/kitti/data_tracking_image_2/testing/image_02/0000/" />
+    </node>
+</launch>
