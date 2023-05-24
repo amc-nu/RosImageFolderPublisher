@@ -1,6 +1,0 @@
-image_folder_publisher
-/home/kong/my_ws/RosImageFolderPublisher/devel/.private/image_folder_publisher/cmake.lock /home/kong/my_ws/RosImageFolderPublisher/devel/./cmake.lock
-/home/kong/my_ws/RosImageFolderPublisher/devel/.private/image_folder_publisher/lib/pkgconfig/image_folder_publisher.pc /home/kong/my_ws/RosImageFolderPublisher/devel/lib/pkgconfig/image_folder_publisher.pc
-/home/kong/my_ws/RosImageFolderPublisher/devel/.private/image_folder_publisher/lib/python3/dist-packages/image_folder_publisher/__init__.py /home/kong/my_ws/RosImageFolderPublisher/devel/lib/python3/dist-packages/image_folder_publisher/__init__.py
-/home/kong/my_ws/RosImageFolderPublisher/devel/.private/image_folder_publisher/share/image_folder_publisher/cmake/image_folder_publisherConfig-version.cmake /home/kong/my_ws/RosImageFolderPublisher/devel/share/image_folder_publisher/cmake/image_folder_publisherConfig-version.cmake
-/home/kong/my_ws/RosImageFolderPublisher/devel/.private/image_folder_publisher/share/image_folder_publisher/cmake/image_folder_publisherConfig.cmake /home/kong/my_ws/RosImageFolderPublisher/devel/share/image_folder_publisher/cmake/image_folder_publisherConfig.cmake
