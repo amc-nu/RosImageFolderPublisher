@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from __future__ import print_function
 
 import roslib
@@ -26,7 +26,7 @@ class image_folder_publisher:
 
         self._image_publisher = rospy.Publisher(self._topic_name, Image, queue_size=1)
 
-        self._rate = rospy.get_param('~publish_rate', 1)
+        self._rate = rospy.get_param('~publish_rate', 30)
         rospy.loginfo("[%s] (publish_rate) Publish rate set to %s hz", self.__app_name, self._rate)
 
         self._sort_files = rospy.get_param('~sort_files', True)
@@ -39,6 +39,11 @@ class image_folder_publisher:
         rospy.loginfo("[%s] (loop) Loop  %d time(s) (set it -1 for infinite)", self.__app_name, self._loop)
 
         self._image_folder = rospy.get_param('~image_folder', '')
+
+        self._sleep = rospy.get_param('~sleep', 0.0)
+        rospy.sleep(self._sleep)
+        rospy.loginfo("[%s] (sleep) Sleep %f seconds after each image", self.__app_name, self._sleep)
+        
         if self._image_folder == '' or not os.path.exists(self._image_folder) or not os.path.isdir(self._image_folder):
             rospy.logfatal("[%s] (image_folder) Invalid Image folder", self.__app_name)
             sys.exit(0)

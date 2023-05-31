@@ -14,8 +14,10 @@ If you want to integrate this into another catkin workspace, just copy the `imag
 
 ## How to Launch
 
-Once in a sourced terminal, execute:
-`rosrun image_folder_publisher image_folder_publisher.py`
+Once in a sourced terminal, execute:   
+`rosrun image_folder_publisher image_folder_publisher.py`   
+or   
+`roslaunch image_folder_publisher publisher.launch`   
 
 ## Params
 
@@ -26,10 +28,12 @@ Once in a sourced terminal, execute:
 |`sort_files`  | Boolean| Defines if the files will be sorted before publishing   | `True`        |
 |`frame_id`    | String | Sets the frame_id contained in the Image message header | `camera`      |
 |`image_folder`| String | Path to the folder containing the images to be published|               | 
+|`sleep`       | Int    | Sleep few seconds to make sure the images process nodes are started|`0` | 
 
 ### Example
 
 `rosrun image_folder_publisher image_folder_publisher.py _image_folder:=/PATH/Images _topic_name:=/image_topic`
+or modify these in `publisher.launch`
 
 ## Notes
 
